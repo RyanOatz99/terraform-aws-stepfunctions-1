@@ -18,4 +18,5 @@ variable "definition" {
 variable "tags" {
   description = "The mandatory tags that will be applied to the State Machine."
   type        = "map"
+  default     = {}
 }
